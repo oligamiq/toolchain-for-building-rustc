@@ -30,3 +30,30 @@ Compile check on c, c++.
 
 ## Related Projects
 - https://musl.cc/
+
+## License
+
+Unless otherwise noted, the original source code, build scripts, configuration
+files, and documentation in this repository are licensed under either of
+
+- [MIT License](LICENSE-MIT)
+- [Apache License, Version 2.0](LICENSE-APACHE)
+
+at your option.
+
+The `scripts/` directory, `configs/` configuration files, and parts of the
+GitHub Actions build infrastructure include code copied or adapted from the
+[Rust project's CI build infrastructure](https://github.com/rust-lang/rust/tree/46e8d20301cb4abe91ab0a4bea43bb085e1d4e4a/src/ci/docker).
+Upstream copyrights are retained by the Rust contributors. Those portions remain
+subject to Rust's [license terms and copyright notices](https://github.com/rust-lang/rust/blob/46e8d20301cb4abe91ab0a4bea43bb085e1d4e4a/COPYRIGHT).
+
+The GCC and glibc patches under `configs/riscv64gc-unknown-linux-gnu/patches/`
+are third-party code and are excluded from this repository's dual-license grant.
+They retain their original authorship, copyright notices, and applicable
+[GCC](https://gcc.gnu.org/onlinedocs/gcc/Copying.html) and
+[glibc](https://www.gnu.org/software/libc/) license terms.
+
+Third-party toolchains and components, including those obtained from
+[musl.cc](https://musl.cc/), remain subject to their respective licenses and
+copyright notices. The licenses of this repository do not relicense those
+components or distributed artifacts.
